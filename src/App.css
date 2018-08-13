@@ -1,0 +1,110 @@
+.App {
+    background: #eaeaea;
+    padding-top: 40px;
+}
+
+.App .logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.search {
+    padding: 50px 40px 0;
+    text-align: center;
+}
+
+.search input {
+    background: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.search input[type="submit"] {
+    background: #01d277;
+    color: #fff;
+    transition: .3s ease-in-out;
+    margin: 0;
+}
+.search input[type="submit"]:hover {
+    cursor: pointer;
+    background: #081c24; 
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    background: #eaeaea;  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;    
+}
+
+.content li {
+    width: calc(25% - 40px);
+    margin: 20px;
+    vertical-align: top;
+    position: relative;
+    background: #fff;
+    overflow: hidden;   
+    border-radius: 5px;    
+    transition: .3s ease-in-out;
+}
+
+.content li:hover {
+    box-shadow: -1px 10px 77px 0px rgba(0,0,0,0.3);
+}
+
+.content li img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content li .copy {
+    padding: 20px;
+}
+
+
+.content li h2 {
+    margin: 0;
+}
+
+.content li .overview {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1024px) {
+    .content li {
+        width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content li {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
